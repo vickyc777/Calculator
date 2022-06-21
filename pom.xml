@@ -21,4 +21,20 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+         
+         <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Calculator release Repository</name>
+	      <url>http://3.110.84.107:8081/repository/calculator-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Calculator snapshot Repository </name>
+	      <url>http://3.110.84.107:8081/repository/calculator-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 </project>
